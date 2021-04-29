@@ -1,5 +1,5 @@
 var names = []
-let button = document.getElementById('button')
+let button = document.getElementById('addbutton')
 const appenChil = function (){
     let newChil= document.createElement('li')
     let userInput = document.getElementById('userInput')
@@ -19,7 +19,7 @@ const appenChil = function (){
 
 
 button.addEventListener('click', appenChil)
-
+let createbutton = document.getElementById('createbtn')
 
 const sfuffle = function(n){
     let names= document.querySelectorAll('li')
@@ -35,7 +35,7 @@ teamer.innerText = myTeam
 
 }
 
-
+createbutton.addEventListener('click', sfuffle)
     
 // for(let i = 0; i < arr.length; i++){
 // if (n === 4){
